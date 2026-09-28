@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/lintmesh",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lint identifiers and mesh tokens for idempotent workflows.",
+  "bin": {
+    "lintmesh": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/lintmesh.git"
+  },
+  "homepage": "https://theworker02.github.io/lintmesh/",
+  "keywords": [
+    "lint",
+    "mesh",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
